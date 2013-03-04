@@ -100,7 +100,7 @@ module.exports = function(grunt) {
       grunt.log.writeln('File "' + f.dest + '" created.');
 
       // ...and report some size information.
-      contrib.minMaxInfo(result.min, result.max);
+      // contrib.minMaxInfo(result.min, result.max);
     });
   });
 
